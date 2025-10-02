@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    padding: 0px 12px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(249, 249, 249);
+}
+#nav{
+    height: 100px;
+        width: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+#nav-part1{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+#nav-part3 button{
+padding: 8px;
+/* background-color: rgb(255, 100, 100); */
+  padding: 5px 10px;
+    border-radius: 5px;
+}
+#btn{
+    background-color: rgb(255, 152, 152);
+    color: white;
+    border: none;
+}
+#nav h3 , i{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+#nav h1{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size:22px ;
+
+}
+#main>h1{
+text-transform: uppercase;
+font-size: 150px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 100%;
+text-align: center;
+}
+
+img{
+    height:500px ;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+border-radius: 20px;
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-15deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-200deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-25deg);
+}
+
+#btm-left{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    font-size: 17px;
+}
